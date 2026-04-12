@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ceiling: #1e1a18;
+  --wall: #e4dfd6;
+  --baseboard: #d0cbc2;
+  --floor-far: #c8aa88;
+  --floor-near: #a8845e;
+  --dark-wood: #2c1810;
+  --medium-wood: #7a4f2e;
+  --metal: #484848;
+  --metal-light: #6e6e6e;
+  --fabric-ash: #b0aba4;
+  --fabric-black: #1e1e1e;
+  --fabric-cream: #f0ebe2;
+  --fabric-stone: #9e9890;
+  --window-sky: #b8d8f8;
+  --window-sky-dark: #8ebce8;
+  --string-light: #ffe898;
+  --rug: #c4b09a;
+  --brand-black: #0a0a0a;
+  --brand-white: #f8f5f0;
+  --font: 'Inter', -apple-system, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: var(--font);
+  background: var(--brand-black);
+  color: var(--brand-black);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  font-family: var(--font);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
